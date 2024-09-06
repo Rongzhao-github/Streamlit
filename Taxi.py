@@ -1,9 +1,9 @@
 import streamlit as st
 
 def fare(d):
-    book = 2.0  # Booking fee
-    start = 3.0  # Starting fee
-    cost = 1.0  # Cost per distance unit
+    book = 3.30  # Booking fee
+    start = 4.6  # Starting fee
+    cost = 0.29  # Cost per distance unit
     fare = book + start + d * cost
     return fare
 
