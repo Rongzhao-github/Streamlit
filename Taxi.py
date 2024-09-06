@@ -1,4 +1,4 @@
-import streamlit as st
+dimport streamlit as st
 
 def fare(d):
     book = 3.30  # Booking fee
@@ -16,4 +16,4 @@ d = st.number_input("What is the distance (in units)?", min_value=0.0, step=0.1)
 # Calculate and display fare
 if st.button("Calculate Fare"):
     calculated_fare = fare(d)
-    st.success(f"The calculated fare is: ${calculated_fare:.2f}")
+    st.success(f"Based on the assumption that booking fee is $3.30 and the starting fare of $4.60, the estimated calculated fare is: ${calculated_fare:.2f}")
